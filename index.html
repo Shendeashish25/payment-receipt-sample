@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+
+body{
+    background-color: #EDEDED
+    ;
+}
+.receipt-container{
+background-color: white;
+width: 80%;
+border: 1px solid grey;
+margin: 0 auto;
+border-radius: 3px;
+box-shadow: 1px 1px 10px 2px gray;
+
+}
+.logo{
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto ;
+}
+
+.brand-name{
+text-align: center;
+
+}
+.receipt-date{
+    font-weight: bold;
+    
+}
+.align-key{
+    text-align: right;
+    margin-right: 5px;
+    
+}
+
+.title-name{
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    background-color: #6fb214;
+    padding: 20px;
+    border-top: 4px solid grey;
+    ;
+}
+.receipt-b-part{
+    display: flex;
+    justify-content:space-between;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.ac-sign{
+    text-align: right;
+}
+.receipt-stamp{
+    width: 150px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    border-radius: 50%;
+
+}
+.receipt-body{
+    position: relative;
+
+}
+
+</style>
+
+
+</head>
+
+<body>
+    
+
+    <div class="receipt-container"> 
+<img src="./images.jpg"  class="logo"/>
+<h3 class="brand-name"> GALAXY ENTERPRISES</h3>   
+
+<h3 class="title-name">PAYMENT RECEIPT  </h2>
+
+    <div> GSTN:<span class="receipt-date">29AACCF0572G1XFG</span></div>
+<div class="align-key"> INVOICE NO.:<span class="receipt-date">28.02.2024</span></div>
+<div class="align-key" >INVOICE DATE:<span class="receipt-date">28.02.2024</span></div> 
+<hr/>
+
+<div class="receipt-body">
+
+<div class="receipt-b-part">
+    <div>ORDER ID:</div>
+<div><span class="receipt-date"> OD458956595585559122</span> </div> </div> 
+
+<div class="receipt-b-part"><div>TRANSCATION ID:</div>
+<div><span class="receipt-date"> 1564444455448455</span> </div></div>
+<div class="receipt-b-part">
+<div>ORDER DATE:</div>
+<div><span class="receipt-date"> 28.02.2024</span> </div></div>
+<div class="receipt-b-part">
+<div>PAYMENT MODE:</div>
+<div><span class="receipt-date">UPI</span> </div></div>
+<div class="receipt-b-part">
+<div>AMOUNT:</div>
+<div><span class="receipt-date">25000</span> </div></div>
+
+<img src="images stamp.png" class="receipt-stamp" /> 
+
+<br /><br /> <br /><br /><br /> <br />
+<p class="ac-sign">ACCOUNTANT SIGNATURE</p>
+</div>
+
+<div class="receipt-footer">
+
+</div>
+    </div>
+</body>
+</html>
